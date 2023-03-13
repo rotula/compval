@@ -1,0 +1,42 @@
+EKaBriefe: Diskrepanzen in der ``div``- und ``sourceDesc``-Auszeichnung
+=======================================================================
+(generiert von cra auf Grundlage der compval-Liste)
+
+d19240413_kantorowicz_stein.xml: "pc 1 Bl  1 S  ms": "lt" != "pc" 		>> div-Angabe richtig, hd jetzt korrigiert
+d19250222_kantorowicz_stein.xml: "pc 1 Bl  2 S  ms": "lt" != "pc" 		>> div-Angabe richtig, hd jetzt korrigiert
+d19250904_kantorowicz_stein.xml: "pc 1 Bl  1 S  ms": "lt" != "pc" 		>> div-Angabe richtig, hd jetzt korrigiert
+d19251221_kantorowicz_stein.xml: "pc 1 Bl  1 S  ms": "lt" != "pc" 		>> div-Angabe richtig, hd jetzt korrigiert
+d19260409_kantorowicz_stein.xml: "pc 1 Bl  1 S  ms": "lt" != "pc" 		>> div-Angabe richtig, hd jetzt korrigiert
+d19260710_kantorowicz_stein.xml: "pc 1 Bl  1 S  ms": "lt" != "pc" 		>> div-Angabe richtig, hd jetzt korrigiert
+d19260727_kantorowicz_stein.xml: "pc 1 Bl  1 S  ms": "lt" != "pc" 		>> div-Angabe richtig, hd jetzt korrigiert
+d19271219_kantorowicz_stein.xml: "pc 1 Bl  2 S  ms": "lt" != "pc" 		>> div-Angabe richtig, hd jetzt korrigiert
+d19280404_kantorowicz_stein.xml: "pc 1 Bl  2 S  ms": "lt" != "pc" 		>> div-Angabe richtig, hd jetzt korrigiert
+d19280717_kantorowicz_stein.xml: "pc 1 Bl  2 S  ms": "lt" != "pc" 		>> div-Angabe richtig, hd jetzt korrigiert
+d19280828_kantorowicz_stein.xml: "tg 1 Bl  1 S  ts": "lt" != "tg" 		>> div-Angabe richtig, hd jetzt korrigiert
+d19310418_kantorowicz_salin.xml: "ms 1 Bl  2 S   pc": "lt" != "pc"		>> div-Angabe richtig, hd jetzt korrigiert
+d19310505_kantorowicz_salin.xml: "ms 1 Bl  2 S   pc": "lt" != "pc"		>> div-Angabe richtig, hd jetzt korrigiert
+d19320224_kantorowicz_stein.xml: "pc 1 Bl  2 S  ms": "lt" != "pc"		>> div-Angabe richtig, hd jetzt korrigiert
+d19320903_kantorowicz_stein.xml: "pc 1 Bl  1 S  ms": "lt" != "pc"		>> div-Angabe richtig, hd jetzt korrigiert
+d19330603_kantorowicz_salin.xml: "ms 1 Bl  2 S   pc": "lt" != "pc"		>> div-Angabe richtig, hd jetzt korrigiert
+d19360412_kantorowicz_toennies.xml: "ms 1 Bl  1 S  x", but "lt" in SQL  	>> hd-Angabe sachlich falsch; div-Angabe: "x"
+d19360903_kantorowicz_langlotz.xml: "ts 2 S   lt", but "1 Bl." in SQL		>> liegt keine Diskrepanz vor
+d19381208_kantorowicz_stein.xml: "pc 1 Bl  1 S  ms": "lt" != "pc"		>> div-Angabe richtig, hd jetzt korrigiert
+d1938XXXX_kantorowicz_langlotz.xml: "ms  pc", but "" in SQL			>> s.u. 
+d1938XXXX_kantorowicz_langlotz.xml: "ms  pc", but "" in SQL			>> s.u.
+d1938XXXX_kantorowicz_langlotz.xml: "ms  pc": "lt" != "pc"			>> div-Angabe richtig, hd jetzt korrigiert
+d19400809_kantorowicz_wittkower.xml: "ms 1 Bl  1 S   tg": "ts" != "ms"		>> Diskrepanz geht auf händische Korrektur im header zurück
+d1941xxxx_kantorowicz_bolton.xml: "ms 1 Bl  1 S   x", but "x" in SQL		>> liegt keine Diskrepanz vor
+d19460518_kantorowicz_saxl.xml: "ts  2 Bl  3 S   lt": " 2 Bl." != "2 Bl."	>> liegt keine Diskrepanz vor
+d19470527b_kantorowicz_schramm.xml: "ts 5 Bl  5 S   x", but "x" in SQL		>> liegt keine Diskrepanz vor
+d19520610_kantorowicz_giesey.xml: "? x Bl  x S   lt", but "?" in SQL		>> liegt keine Diskrepanz vor (unterschiedliche Platzhalter)
+d19531124_kantorowicz_kuepper.xml: "ts 1 Bl  1 S   x", but "x" in SQL		>> liegt keine Diskrepanz vor
+d19570303_kantorowicz_kahler.xml: "ts 1 Bl  1 S   x", but "x" in SQL		>> liegt keine Diskrepanz vor
+d19620000_kantorowicz_salz.xml: "ts 13 Bl  13 S   x", but "x" in SQL		>> liegt keine Diskrepanz vor
+d19621013_kantorowicz_salz.xml: "lt", but "" in SQL				>> liegt keine Diskrepanz vor
+d19621013_kantorowicz_salz.xml: "lt", but "" in SQL				>> s.o.
+d19621013_kantorowicz_salz.xml: "lt", but "" in SQL				>> s.o.
+d19630715_kantorowicz_schlunk.xml: "ts  1 Bl  1 S   lt": " 1Bl." != "1 Bl."	>> falsch gesetzte Spatien, behoben (keine sachliche Diskrepanz)
+d19630715_kantorowicz_schlunk.xml: "ts  1 Bl  1 S   lt": "1S." != "1 S."	>> falsch gesetzte Spatien, behoben (keine sachliche Diskrepanz)
+d19xxxxxxb_kantorowicz_kempner.xml: "ms 1 Bl  1 S   x", but "x" in SQL		>> liegt keine Diskrepanz vor
+d19xxxxxxc_kantorowicz_kempner.xml: "ms 1 Bl  1 S   x", but "x" in SQL		>> liegt keine Diskrepanz vor
+d19xxxxxxd_kantorowicz_kahler.xml: "ms 1 Bl  1 S   x", but "x" in SQL		>> liegt keine Diskrepanz vor
